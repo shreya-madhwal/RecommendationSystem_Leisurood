@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leisurhood owner</title>
+    <link rel="stylesheet"  type="text/css"  href="{{url_for('static',filename='styles/font.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <style>
+        :root{
+  --mount-meadow: #1bbc9c;
+  --white-smoke: #f0f0f0;
+  --night-rider: #343434;
+  --black: #191b17;
+  --transition: all 0.5s ease-in-out;
+}
+*{
+  font-family : 'Quicksand' , sans-serif;
+  padding : 0;
+  margin : 0;
+  box-sizing: border-box;
+}
+.header{
+  background-image: linear-gradient(rgba(252, 108, 187, 0.911), rgba(255, 255, 255, 0.884)),url(../static/img12.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.hero-div{
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+}
+.hero-div h1{
+  font-size: 2.55rem;
+  padding-top: 8rem ;
+  padding-bottom: 4rem ;
+
+}
+a{
+  text-align: center;
+}
+.fa {  
+  padding: 20px; 
+text-align:end;  
+  margin: 10px 0.005px;  
+  font-size: 20px;  
+  text-align: center;
+  width: 200px;  
+} 
+ 
+.fa-envelope {  
+  background: #db4b41;  
+  color: white;  
+}  
+.fa-linkedin {  
+  background: #007bb5;  
+  color: white;  
+}   
+.fa-github{
+    background: #191b17;
+    color: white;
+}
+    </style>  
+</head>
+<body>
+    <!--Header-->
+    <header class ="header" id="intro">
+        <div class="hero-div center container">
+            <h1>CONTACT  OWNER</h1>
+            <div class="fa">
+              
+              <a href="mailto:shreyamadhwal@gmail.com" target="_blank" class="fa fa-envelope">             Mail Handle</a>
+              <a href="https://www.linkedin.com/in/shreya-madhwal-15690b212" target="_blank" class="fa fa-linkedin">                  Linkedin Handle</a>
+              <a href=" https://github.com/shreya-madhwal" target="_blank" class="fa fa-github">                    Github Handle</a>
+    </header>
+    <!--End of header-->
+
+    
+</body>
+</html>
