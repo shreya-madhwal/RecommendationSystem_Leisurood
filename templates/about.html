@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leisurhood about</title>
+    <link rel="stylesheet"  type="text/css"  href="{{url_for('static',filename='styles/about.css')}}">
+    <link rel="stylesheet"  type="text/css"  href="{{url_for('static',filename='styles/font.css')}}">
+    <style>
+        :root{
+    --mount-meadow: #1bbc9c;
+    --white-smoke: #f0f0f0;
+    --night-rider: #343434;
+    --black: #191b17;
+    --transition: all 0.5s ease-in-out;
+}
+*{
+    font-family : 'Quicksand' , sans-serif;
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: linear-gradient(rgba(78, 204, 243, 0.911), rgba(252, 139, 233, 0.884)),url(../static/img12.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.hero-div{
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+}
+.hero-div h1{
+    font-size: 2.55rem;
+    padding-top: 5rem ;
+    padding-bottom: 3rem;
+}
+.hero-div p{
+    color: var(--white-smoke);
+    text-shadow: rgb(255, 255, 255)1px 0 10px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+}
+    </style>
+</head>
+<body>
+    <!--Header-->
+    <header class ="header" id="intro">
+  
+        <div class="hero-div center container">
+            <h1>ABOUT US</h1>
+            <p>Your mood is our priority. Here leisurood provide you leisure according to your mood. As soon as you enter in leisurood just jump into leisure time. Then this application will going to examine your mood from your facial emotion and will take you to the recommended multimedia best suited for your current mood. Isn't it interesting!!!<br>Leisurood going to provide you with many fun stuff recommendation like movies and songs. You just have to enjoy according to your mood. So come and explore leisurhood as "It's your mood your leisure time"</p>
+        </div>
+    </header>
+    <!--End of header-->
 
+    
+</body>
+</html>
